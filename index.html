@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tácticas de arquitectura web</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#USABILIDAD">Usabilidad</a>
+            <a href="#SEGURIDAD">Seguridad</div></a>
+            <a href="#MODIFICABILIDAD">Modificabilidad</a>
+            <a href="#DISPONIBILIDAD">Disponibilidad</a>
+            <a href="#TESTABILIDAD">Testabilidad</a>
+            <a href="#RENDIMIENTO">Rendimiento</a>
+            <a href="#INTEROPERABILIDAD">Interoperabilidad</a>
+        </nav>
+        <section class="textos-header">
+            <h1>CRITERIOS DE CALIDAD</h1>
+            <h2>Estos Son:</h2>
+        </section>
+        <div class= "wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main class="contenedor">
+        <section class="contenedor-calidad">
+            <h2 class="titulo"><div id="USABILIDAD">USABILIDAD</div></h2>
+            <div class="contenerdor-sobre-usabilidad">
+                <img src="img/usabilidad1.jpg" alt="" class="imgen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>¿Que es la Usabilidad?</h3>
+                    <p>Se relaciona con lo fácil que es para el usuario realizar una tarea deseada y el tipo de
+                        asistencia al usuario que proporciona el sistema. A lo largo de los años, un enfoque en la
+                        facilidad de uso se ha revelado como una de las formas más económicas y sencillas de mejorar la
+                        calidad de un sistema (o, más precisamente, la percepción de calidad del usuario).</p>
+                    <h3><span>2</span>En Conclusión</h3>
+                    <p>El soporte arquitectónico para la usabilidad implica permitir que el usuario tome la iniciativa,
+                        en circunstancias como cancelar un comando de ejecución prolongada o deshacer un comando
+                        completado, y agregar datos y comandos.
+                        Para poder predecir las respuestas del usuario o del sistema, el sistema debe mantener un modelo
+                        explícito del usuario, el sistema y la tarea.
+                        Existe una fuerte relación entre el soporte del proceso de diseño de la interfaz de usuario y la
+                        modificabilidad del soporte; esta relación es promovida por patrones que imponen la separación
+                        de la interfaz de usuario del resto del sistema, como el patrón por capas.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor-calidad">
+            <h2 class="titulo"><div id="SEGURIDAD"></div>SEGURIDAD</h2>
+            <div class="contenerdor-sobre-usabilidad">
+                <img src="img/seguridad.JPG" alt="" class="imgen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>¿Que es la Seguridad?</h3>
+                    <p>La seguridad es una medida de la capacidad del sistema para proteger
+                        los datos y la información de accesos no autorizados a la vez que
+                        proporciona acceso a personas y sistemas autorizados. Una acción
+                        tomada contra un sistema informático con la intención de hacer daño
+                        se llama un ataque y puede tomar varias formas. Puede ser un intento
+                        no autorizado de acceder a datos o servicios o modificar datos, o puede
+                        estar destinado a negar servicios a usuarios legítimos.</p>
+                    <h3><span>2</span>En Conclusión</h3>
+                    <p>Los ataques contra un sistema pueden caracterizarse como ataques
+                        contra la confidencialidad, integridad o disponibilidad de un sistema o
+                        sus datos. La confidencialidad significa mantener los datos lejos de
+                        aquellos que no deberían tener acceso y otorgar acceso a los que
+                        deberían. La integridad significa que no hay modificaciones no
+                        autorizadas o eliminación de datos, y la disponibilidad significa que el
+                        sistema es accesible para aquellos que tienen derecho a usarlo.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor-calidad">
+            <h2 class="titulo"><div id="MODIFICABILIDAD"></div> MODIFICABILIDAD</h2>
+            <div class="contenerdor-sobre-usabilidad">
+                <img src="img/modificabilidad.JPG" alt="" class="imgen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>¿Que es la Modificablidad?</h3>
+                    <p>Los cambios ocurren
+                        para agregar nuevas funciones, para cambiar o incluso retirar las
+                        antiguas. Los cambios suceden para corregir defectos, reforzar la
+                        seguridad o mejorar el rendimiento. Los cambios suceden para mejorar
+                        la experiencia del usuario. Los cambios ocurren para adoptar nuevas
+                        tecnologías, nuevas plataformas, nuevos protocolos, nuevos
+                        estándares. Los cambios suceden para hacer que los sistemas
+                        funcionen juntos, incluso si nunca fueron diseñados para hacerlo.</p>
+                    <h3><span>2</span>En Conclusión</h3>
+                    <p>La modificabilidad se relaciona con el cambio y el costo en tiempo o
+                        dinero de realizar un cambio, incluida la medida en que esta
+                        modificación afecta otras funciones o atributos de calidad.
+                        Los desarrolladores, instaladores o usuarios finales pueden realizar
+                        cambios, y estos cambios deben prepararse para. Hay un costo de
+                        preparación para el cambio, así como un costo de hacer un cambio. Las
+                        tácticas de modificabilidad están diseñadas para prepararse para los
+                        cambios posteriores.</p>
+                    <p>
+                        Las tácticas para reducir el costo de realizar un cambio incluyen hacer
+                        módulos más pequeños, aumentar la cohesión y reducir el
+                        acoplamiento. Aplazar la vinculación también reducirá el costo de
+                        hacer un cambio.
+                        Reducir el acoplamiento es una categoría estándar de tácticas que
+                        incluye encapsular, usar un intermediario, restringir dependencias,
+                        ubicar responsabilidades relacionadas, refactorizar y abstraer servicios
+                        comunes.
+                        El aumento de la cohesión es otra táctica estándar que implica la
+                        separación de responsabilidades que no sirven para el mismo
+                        propósito.
+                        El enlace diferido es una categoría de tácticas que afecta el tiempo de
+                        construcción, el tiempo de carga, el tiempo de inicialización o el tiempo
+                        de ejecución..</p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor-calidad">
+            <h2 class="titulo"><div id="DISPONIBILIDAD"></div> DISPONIBILIDAD</h2>
+            <div class="contenerdor-sobre-usabilidad">
+                <img src="img/disponibilidad.JPG" alt="" class="imgen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>¿Que es la Disponibilidad?</h3>
+                    <p>se refiere a una propiedad de software que está allí y
+                        lista para llevar a cabo su tarea cuando la necesita. Esta es una
+                        perspectiva amplia y abarca lo que normalmente se llama confiabilidad
+                        (aunque puede abarcar consideraciones adicionales como el tiempo de
+                        inactividad debido al mantenimiento periódico). De hecho, la
+                        disponibilidad se basa en el concepto de confiabilidad al agregar la
+                        noción de recuperación, es decir, cuando el sistema se rompe, se repara
+                        a sí mismo. La</p>
+                    <h3><span>2</span>En Conclusión</h3>
+                    <p>La disponibilidad se refiere a la capacidad del sistema para estar
+                        disponible para su uso, especialmente después de que se produce una
+                        falla. La falla debe ser reconocida (o prevenida) y luego el sistema debe
+                        responder de alguna manera. La respuesta deseada dependerá de la
+                        criticidad de la aplicación y del tipo de falla y puede ir desde "ignorarla"
+                        a "seguir adelante como si no hubiera ocurrido".</p>
+                    <p>
+                        Las tácticas de disponibilidad se clasifican en detectar fallas,
+                        recuperarse de fallas y prevenir fallas. Las tácticas de detección
+                        dependen, esencialmente, de la detección de signos de vida de varios
+                        componentes. Las tácticas de recuperación son una combinación de
+                        reintentar una operación o mantener datos o cálculos redundantes. Las
+                        tácticas de prevención dependen de la eliminación de elementos del
+                        servicio o de la utilización de mecanismos para limitar el alcance de las
+                        fallas.</p>
+                    <p>
+                        Todas las tácticas de disponibilidad involucran el modelo de
+                        coordinación porque el modelo de coordinación debe ser consciente de
+                        las fallas que ocurren para generar una respuesta apropiada.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor-calidad">
+            <h2 class="titulo"><div id="TESTABILIDAD"></div> TESTABILIDAD</h2>
+            <div class="contenerdor-sobre-usabilidad">
+                <img src="img/testabilidad.JPG" alt="" class="imgen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>¿Que es la Testabilidad?</h3>
+                    <p>La capacidad de prueba del software se refiere a la facilidad con la que
+                        se puede hacer que el software demuestre sus fallas a través de pruebas
+                        (típicamente basadas en la ejecución). Específicamente, la capacidad de
+                        prueba se refiere a la probabilidad, asumiendo que el software tiene al
+                        menos una falla, que fallará en su próxima ejecución de
+                        prueba. Intuitivamente, un sistema es comprobable si "abandona" sus
+                        fallas fácilmente. Si una falla está presente en un sistema, queremos
+                        que falle durante la prueba lo más rápido posible. Por supuesto, el
+                        cálculo de esta probabilidad no es fácil y, como verá cuando analicemos
+                        las medidas de respuesta para la comprobabilidad, se utilizarán otras
+                        medidas.</p>
+                    <h3><span>2</span>En Conclusión</h3>
+                    <p>Asegurarse de que un sistema sea fácilmente comprobable tiene
+                        beneficios tanto en términos del costo de las pruebas como de la
+                        confiabilidad del sistema. Un vehículo usado a menudo para ejecutar
+                        las pruebas es el arnés de prueba. Los arneses de prueba son sistemas
+                        de software que encapsulan recursos de prueba, como casos de prueba
+                        e infraestructura de prueba, por lo que es fácil volver a aplicar las
+                        pruebas a través de iteraciones y es fácil aplicar la infraestructura de
+                        prueba a nuevos incrementos del sistema. Otro</p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor-calidad">
+            <h2 class="titulo"><div id="RENDIMIENTO"></div> RENDIMIENTO</h2>
+            <div class="contenerdor-sobre-usabilidad">
+                <img src="img/rendimiento.JPG" alt="" class="imgen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>¿Que es el Rendimiento?</h3>
+                    <p>Se trata del tiempo y la capacidad del sistema de
+                        software para cumplir con los requisitos de tiempo. Cuando ocurren
+                        eventos (interrupciones, mensajes, solicitudes de usuarios u otros
+                        sistemas, o eventos de reloj que marcan el paso del tiempo), el sistema,
+                        o algún elemento del sistema, debe responder a ellos a tiempo. La
+                        esencia de la discusión del rendimiento es caracterizar los eventos que
+                        pueden ocurrir (y cuándo pueden ocurrir) y la respuesta basada en el
+                        tiempo del sistema o elemento a esos eventos.</p>
+                    <h3><span>2</span>En Conclusión</h3>
+                    <p>El rendimiento puede mejorarse reduciendo la demanda o
+                        administrando los recursos de manera más adecuada. Reducir la
+                        demanda tendrá el efecto secundario de reducir la fidelidad o negarse a
+                        atender algunas solicitudes. La administración más adecuada de los
+                        recursos se puede realizar a través de la programación, la replicación o
+                        simplemente aumentando los recursos disponibles.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor-calidad">
+            <h2 class="titulo"><div id="INTEROPERABILIDAD"></div> INTEROPERABILIDAD</h2>
+            <div class="contenerdor-sobre-usabilidad">
+                <img src="img/interoperabilidad.JPG" alt="" class="imgen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>¿Que es la Usabilidad?</h3>
+                    <P>se refiere al grado en que dos o más sistemas
+                        pueden intercambiar información útil a través de interfaces en un
+                        contexto particular. La definición incluye no solo tener la capacidad de
+                        intercambiar datos (interoperabilidad sintáctica) sino también la
+                        capacidad de interpretar correctamente los datos que se intercambian
+                        (interoperabilidad semántica). Un sistema no puede ser interoperable
+                        de forma aislada. Cualquier discusión sobre la interoperabilidad de un
+                        sistema debe identificar con quién, con qué y bajo qué circunstancias,
+                        por lo tanto, la necesidad de incluir el contexto.</P>
+                    <h3><span>2</span>En Conclusión</h3>
+                    <p>El escenario general de interoperabilidad proporciona los detalles de
+                        estos diferentes casos. En cualquier caso de interoperabilidad, el
+                        objetivo es intercambiar información intencionalmente o rechazar la
+                        solicitud de intercambio de información.
+                        Para lograr la interoperabilidad, los sistemas relevantes se ubican entre
+                        sí y luego administran las interfaces para que puedan intercambiar
+                        información.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>322 382 69 40</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>lopezarenasdaniela@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>Mosquera-Cundinamarca</p>
+            </div>
+        </div>
+            <h2 class="titulo-final">&copy; DLopez | Daniela Lopez Arenas | 2021</h2>
+    </footer>
+</body>
+
+</html>
